@@ -109,7 +109,7 @@ object-fit: cover;
     }
     .quotetext{font-size:larger;}
    /*--------------product-details(media-queries)--------------------*/
-   .smallimg-box{margin-left: 13%;}
+   .smallimg-box{margin-left: 0%;}
 
    .productshirt{ 
     margin-top: 5%;margin-left: 0%;
