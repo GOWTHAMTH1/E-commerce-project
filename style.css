@@ -1,0 +1,150 @@
+*{
+  padding: 0px;
+  margin: 0px; 
+}
+body{
+
+    height: 100vh;
+    max-width: 100vw;
+    overflow-x: hidden; background:linear-gradient(to bottom right,white, rgb(255, 116, 101));
+}
+.btn:hover{
+ cursor: pointer;
+}
+ /*----------------Navbar----------------------*/
+.navbar{
+  background-color: rgb(246, 136, 123);
+}
+ /*----------------Ratings----------------------*/
+.fa-star,.fa-star-half-stroke{
+color: rgb(242, 120, 6);
+
+}
+ /*----------------cards----------------------*/
+.card-body:hover{
+background-color: rgb(187, 255, 86);
+}
+ /*----------------Homepage-header----------------------*/
+header{
+  height: 100vh;width: 100vw;position:relative;
+}
+.quote{
+margin-top: 20%;margin-left: 25%;
+}
+.explorebtn{margin-left: 25%;}
+.column1{
+  margin-top: 1em;
+}
+/*----------------expplore page column-page-----------------------*/
+.explore-col:hover{
+cursor: pointer;
+}
+/*----------------Account-page-register----------------------*/
+.registration{
+  margin-left: 10%;
+}
+/*----------------fashion----------------------*/
+
+.page-link:hover{
+  background-color: blue;
+  color: white;
+}
+/*--------------------product-details--------------------*/
+
+.productshirt{ 
+  margin-left: 5%;margin-top: 5%;
+  display: flex; 
+  justify-content: end;}
+
+.darkgrayshirt{
+object-fit: cover;
+  }
+.smallimg-box{margin-left: 48%;}
+.smallimg{
+  height: 50x;width: 60px;object-fit: cover;
+}
+.smallimg:hover{
+  border:solid 1px black;
+}
+.productearrnigs{
+  margin-left: 5%;margin-top: 5%;
+  display: flex; 
+  justify-content: end;
+}
+.productquest{
+  margin-left: 5%;margin-top: 5%;
+  display: flex; 
+  justify-content: end;
+}
+.producttop{
+  margin-left: 5%;margin-top: 5%;
+  display: flex; 
+  justify-content: end;
+}
+
+/*--------------------Blog page --------------------*/
+.carousel-item img{
+  height: 300px;width: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+.sareewomen{
+  width: 400px;
+}
+.sonytv{
+  width: 400px;
+}
+
+/*--------------------Media queries--------------------*/
+@media screen and (max-width:576px) {
+  body{
+    height: 100vh;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+.computericon{display: none;}
+/*----------------m-queries for Homepage-header----------------------*/
+  .quote{
+    margin-top: 3%;margin-left: 10%;
+    }
+    .quotetext{font-size:larger;}
+   /*--------------product-details(media-queries)--------------------*/
+   .smallimg-box{margin-left: 17%;}
+
+   .productshirt{ 
+    margin-top: 5%;margin-left: 0%;
+    display: flex; 
+    justify-content: center;
+   }
+   .productearrnigs{ 
+    margin-top: 5%;margin-left: 0%;
+    display: flex; 
+    justify-content: center;
+   }
+   
+.productquest{
+  margin-top: 5%;margin-left: 0%;
+  display: flex; 
+  justify-content: center;
+}
+.producttop{
+  margin-top: 5%;margin-left: 0%;
+  display: flex; 
+  justify-content: center;
+}
+/*------------------M-queries- for blogpage--------------------*/
+.sareewomen{
+  width: 20em;
+}
+.sonytv{
+  width: 20em;
+}
+.sonytv-div{
+  display: flex;
+  justify-content: center;
+}
+.sareewomen-div{
+  display: flex;
+  justify-content: center;
+}
+}

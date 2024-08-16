@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>s-cart-account</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="body">
+    <!----------------Navbar section-------------->
+    <div class="navbar  navbar-light navbar-expand-sm ">    
+        <h3 class="navbar-brand ms-2 " ><a href="index.html" class="text-black text-decoration-none">pick<small class="h3 text-white">N</small>buy</a> </h3> 
+        <div class="w-50  ms-2">
+            <input type="search" class="form-control searchbar" placeholder="Search">
+        </div>
+         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#box"> <span class="navbar-toggler-icon"></span></button>
+         <div class="container-fluid-md justify-content-end collapse navbar-collapse " id="box">
+            <ol class="navbar-nav  " >
+                <li class="a nav-item h5  d-flex justify-content-center"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item h5  d-flex justify-content-center"><a href="explore.html" class="nav-link ">Explore</a></li>
+                <li class="nav-item h5  d-flex justify-content-center"><a href="fashion.html" class="nav-link">Fashion</a></li>
+                <li class="nav-item h5 d-flex justify-content-center"><a href="blog.html" class="nav-link">Blog</a></li>
+                <li class="nav-item h5  d-flex justify-content-center"><a href="account.html" class="nav-link">Account</a></li>
+                
+            </ol></div> 
+    </div>
+
+     <!----------------Register form-------------->
+     <div class="container-fluid ">
+        <div class=" my-5 ">
+            <div class="row g-0">
+                <div class="col-md-6 col-xs-12">
+                   <div class="quote"> <h2 class="quotetext">" Nothing heals a heavy heart <br> better than a heavy <small class="text-danger">shopping bag"</small> </h2> 
+                    <div class="registration mt-3">
+                        <button class="btn btn-lg btn-danger ms-md-5 ms-xs-3 text-white" data-bs-toggle="modal" data-bs-target="#popup">Register</button>
+                        <button class="btn btn-lg btn-danger text-white" data-bs-toggle="modal" data-bs-target="#login-popup">Login</button>
+                    </div>
+            </div></div>
+                <div class="col-md-6 col-xs-12  ">
+                <div><img src="collections/happygirl.png" class="img-fluid happygirl mt-2 my-0" alt="happy girl" ></div>
+            </div>
+            </div>
+        </div></div>
+
+    <!------------------Model for register/login------------------->
+    <div class="modal fade" data-bs-backdrop="static" id="popup">
+        <div class="modal-dialog modal-dialog-centered modal-fullscreen-sm-down" >
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Register</h3>
+                    <button type="button
+                    " class="btn btn-close" data-bs-dismiss="modal"></button></div>
+                    <div class="modal-body">
+                        <div class=" col form mb-2">
+                            <label for="username" class="form-label">Name</label>
+                            <input type="text" id="username" class="form-control ">
+                           </div>  
+                         <div class="col form mb-2" >
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control " id="password">
+                         </div> 
+                         <div class="col form mb-2" >
+                            <label for="confirmpassword" class="form-label">Confirm Password</label>
+                            <input type="password" class="form-control " id="confirmpassword">
+                         </div>    
+                        <div class="form col mb-2">
+                            <label for="Email" class="form-label">Email ID</label>
+                            <input type="email" id="Email" class="form-control">
+                           </div>
+                        <div class="form col mb-2">
+                            <label for="Mobilenumber" class="form-label">Mobile number</label>
+                            <input type="number" id="Mobilenumber" class="form-control">
+                           </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-success">Register</button>
+                        <button class="btn btn-danger" data-bs-dismiss="modal">Cancel</button>
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!--------------Login Details--------------->
+<div class="modal fade" id="login-popup" data-bs-backdrop="static">
+    <div class="modal-dialog modal-dialog-centered modal-fullscreen-sm-down">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Login</h3>
+                <button type="button" class="btn btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <div class="form mb-3">
+                    <label for="#L-name" class="form-label">Enter name</label>
+                    <input type="text" class="form-control" id="L-name">
+                </div>
+                <div class="form mb-3">
+                    <label for="#L-password" class="form-label">Enter Password</label>
+                    <input type="password" class="form-control" id="L-password">
+                </div>
+                <div>Forget password?</div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" >Login</button>
+                <button type="button" class="btn btn-danger " data-bs-dismiss="modal"  >Cancel</button>            
+            </div>
+        </div>
+    </div>
+</div>
+<!------------Footer-contact section------>
+<footer class="mt-5 text-center">
+    <div class="bg-dark text-white">
+        <div class="h6 text-center py-3 text-decoration-underline text-danger">Copyright & Legal Information</div>
+        <h5> Copyright © [2024] PickNBuy. All Rights Reserved.</h5>
+        <div >Contact Us 
+
+            For any questions regarding this copyright policy or to report potential infringements, please contact us at:
+        </div>
+        <div><i class="fa-brands fa-instagram"></i>
+             <i class="fa-brands fa-twitter"></i>
+             <i class="fa-brands fa-facebook"></i></div>
+            <p>Email: picknbuy@gmail.com</p> 
+            <p>Phone Number:9876543210</p>
+            <p class="pb-4">Thank you for visiting <small class="h5">PickNBuy</small>.</p> 
+            
+    </div>
+</footer>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
